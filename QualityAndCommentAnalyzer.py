@@ -34,5 +34,5 @@ def analyze_python_file(filename):
         print("Overall Code Quality: Good")
     else:
         print("Overall Code Quality: Needs Improvement")
-file_name = input("Enter Python file name (example: sample.py): ")
+file_name = input("Enter Python file name: ")
 analyze_python_file(file_name)
